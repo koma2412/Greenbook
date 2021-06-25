@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool:WindowsAgent
+pool:
+  name: WindowsAgent
 
 steps:
 - task: Maven@3
